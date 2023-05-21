@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { Strumento } from '../models/strumento';
+import { Strumenti } from '../models/strumento';
 import { Flauto } from '../models/flauto';
 
 @Injectable({
@@ -7,7 +7,7 @@ import { Flauto } from '../models/flauto';
 })
 export class DataManagerService {
 
-  strumenti: Strumento[];
+  strumenti: Strumenti[];
   flauti: Flauto[];
 
   constructor() {

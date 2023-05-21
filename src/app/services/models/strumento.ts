@@ -1,4 +1,4 @@
-export interface Strumento {
+export interface Strumenti {
   nome: string;
   tipo: string;
   prezzo: number;
