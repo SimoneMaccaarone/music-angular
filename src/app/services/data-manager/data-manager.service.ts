@@ -23,7 +23,7 @@ export class DataManagerService {
         tipo: 'tipo2',
         prezzo: 2000
       },
-    ]
+    ],
 
     this.flauti = [
       {
