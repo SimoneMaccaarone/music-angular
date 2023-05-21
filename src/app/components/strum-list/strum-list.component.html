@@ -2,5 +2,7 @@
 <div>
 <app-strum-detail
 *ngFor="let strumento of dataManagerServ.strumenti"
-[strumentiDetail]="strumento"></app-strum-detail>
+[strumentiDetail]="strumento" class="strumenti-corda"></app-strum-detail>
+<app-strum-detail *ngFor="let faluto of dataManagerServ.flauti"></app-strum-detail>
+
 </div>

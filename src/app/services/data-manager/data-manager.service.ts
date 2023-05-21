@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Strumento } from '../models/strumento';
+import { Flauto } from '../models/flauto';
 
 @Injectable({
   providedIn: 'root'
@@ -7,31 +8,34 @@ import { Strumento } from '../models/strumento';
 export class DataManagerService {
 
   strumenti: Strumento[];
+  flauti: Flauto[];
 
   constructor() {
 
     this.strumenti = [
       {
-        nome: 'Chitarra Acustica',
-        tipo: 'Strumento a corde',
-        prezzo: 250
+        nome: 'strumento1',
+        tipo: 'tipo1',
+        prezzo: 100
       },
       {
-        nome: 'Pianoforte',
-        tipo: 'Strumento a corde percosse',
-        prezzo: 1000
+        nome: 'strumento2',
+        tipo: 'tipo2',
+        prezzo: 2000
       },
-      {
-        nome: 'Saxofono',
-        tipo: 'Strumento a fiato',
-        prezzo: 170
-      },
-      {
-        nome: 'Flauto dolce',
-        tipo: 'Strumento a fiato',
-        prezzo: 12
-      },
+    ]
 
+    this.flauti = [
+      {
+        nome: 'Flauto1',
+        tipo: 'Tipo1',
+        prezzo: 10
+      },
+      {
+        nome: 'Flauto2',
+        tipo: 'Tipo2',
+        prezzo: 20
+    },
     ]
   }
 }
