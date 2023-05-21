@@ -3,5 +3,6 @@
 [strumentiDetail]="strumento" class="strumenti-list"
 ></app-strum-detail>
 
-<!-- <app-strum-detail ></app-strum-detail> -->
+<app-strum-detail  *ngFor="let chitarra of dataManagerServ.chitarre"
+[strumentiDetail]="chitarra" class="chitarre-list" ></app-strum-detail>
 

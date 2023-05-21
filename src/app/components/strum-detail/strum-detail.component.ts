@@ -2,7 +2,7 @@ import { Component, Input } from '@angular/core';
 import { DataManagerService } from 'src/app/services/data-manager/data-manager.service';
 
 import { Strumenti } from 'src/app/services/models/strumento';
-import { Flauto } from 'src/app/services/models/flauto';
+// import { Flauto } from 'src/app/services/models/flauto';
 
 
 @Component({
@@ -14,7 +14,7 @@ import { Flauto } from 'src/app/services/models/flauto';
 export class StrumDetailComponent {
 
   @Input() strumentiDetail?: Strumenti;  //DETAGLIO
-  @Input() flautiDetail?: Flauto;
+  // @Input() flautiDetail?: Flauto;
 
   constructor(private dataManagerServ: DataManagerService) { }
 
