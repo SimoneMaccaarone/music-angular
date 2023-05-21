@@ -1,6 +1,5 @@
 import { Injectable } from '@angular/core';
-import { Strumenti } from '../models/strumento';
-import { Chitarre } from '../models/strumento';
+import { Chitarre, Pianoforti, Strumenti } from '../models/strumento';
 
 
 
@@ -11,20 +10,21 @@ export class DataManagerService {
 
   strumenti: Strumenti[];
   chitarre: Chitarre[];
-  pianoforti: Piranoforti[];
+  pianoforti: Pianoforti[];
 
   constructor() {
 
-    this.strumenti = [
+    this.strumenti = [ 
       {
         nome: 'strumento1',
         tipo: 'tipo1',
-        prezzo: 100
+        prezzo: 100,
+
       },
       {
         nome: 'strumento2',
         tipo: 'tipo2',
-        prezzo: 200
+        prezzo: 200,
       },
     ]
 
@@ -45,7 +45,7 @@ export class DataManagerService {
       {
         nome: 'PianoForte1',
         tipo: 'Tipo1',
-        prezzo: 10
+        prezzo: 10,
       },
       {
         nome: 'Pianoforte2',

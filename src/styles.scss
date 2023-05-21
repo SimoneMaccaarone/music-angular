@@ -1,70 +1,20 @@
-/* You can add global styles to this file, and also import other style files */
-/* You can add global styles to this file, and also import other style files */
-/* Application-wide Styles */
-
-h1 {
-  color: #369;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 250%;
+.card {
+  text-align: center;
+  border: solid 1px black;
+  margin: 10px;
+  padding: 5px;
+  max-width: 30%;
+  // display: flex;
+  // flex-direction: row;
+  // justify-content: center;
 }
 
-h2,
-h3 {
-  color: #444;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: lighter;
+.card-img-top {
+  width: 100px;
+  height: 100px;
 }
 
-body {
-  margin: 2em;
+img {
+  width: 100px;
+  height: 100px;
 }
-
-body,
-input[type="text"],
-button {
-  color: #333;
-  font-family: Cambria, Georgia, serif;
-}
-
-button {
-  background-color: #322626;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  color: black;
-  font-size: 1.2rem;
-  padding: 1rem;
-  margin-right: 1rem;
-  margin-bottom: 1rem;
-  margin-top: 1rem;
-}
-
-button:hover {
-  background-color: rgb(0, 0, 0);
-  color: white;
-}
-
-button:disabled {
-  background-color: #eee;
-  color: #aaa;
-  cursor: auto;
-}
-
-/* everywhere else */
-* {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-html,
-body {
-  height: 100%;
-}
-
-body {
-  margin: 0;
-  font-family: Roboto, "Helvetica Neue", sans-serif;
-}
-
-
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

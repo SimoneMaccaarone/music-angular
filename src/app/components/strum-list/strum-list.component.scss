@@ -1,9 +1,15 @@
-strumenti-list{
+
+.strumenti-list{
   display: flex;
   flex-direction: row;
 }
 
-chitarre-list{
+.chitarre-list{
+  display: flex;
+  flex-direction: row;
+}
+
+.pianoforti-list{
   display: flex;
   flex-direction: row;
 }
