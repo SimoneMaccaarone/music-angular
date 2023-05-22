@@ -9,6 +9,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ChitarreDetailComponent } from './components/all-strumenti-detail/chitarre-detail/chitarre-detail.component';
 import { PianofortiDetailComponent } from './components/all-strumenti-detail/pianoforti-detail/pianoforti-detail.component';
 
+import { NgbCarouselModule, NgbModule } from '@ng-bootstrap/ng-bootstrap';
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -21,6 +24,9 @@ import { PianofortiDetailComponent } from './components/all-strumenti-detail/pia
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
+    NgbCarouselModule,
+    NgbModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]
