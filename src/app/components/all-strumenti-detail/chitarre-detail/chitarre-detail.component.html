@@ -1,9 +1,17 @@
-<div class="card" style="width: 18rem;">
-  <img class="card-img-top" src="./assets/chitarra.png" alt="Card image cap">
-  <div class="card-body">
-    <h5 class="card-title">{{chitarreDetail?.nome}} </h5>
-    <p class="card-text">{{chitarreDetail?.tipo}} </p>
-    <strong>Prezzo: {{chitarreDetail?.prezzo}}.00 €</strong>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
-  </div>
-</div>
+
+
+
+<ngb-carousel >
+	<ng-template ngbSlide>
+		<div class="card" style="width: 18rem;">
+      <img class="card-img-top" src="./assets/chitarra.png" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">{{chitarreDetail?.nome}} </h5>
+        <p class="card-text">{{chitarreDetail?.tipo}} </p>
+        <strong>Prezzo: {{chitarreDetail?.prezzo}}.00 €</strong>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+	</ng-template>
+</ngb-carousel>
+

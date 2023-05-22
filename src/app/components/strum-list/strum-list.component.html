@@ -1,15 +1,21 @@
-
-<app-strum-detail *ngFor="let strumento of dataManagerServ.strumenti"
-[strumentiDetail]="strumento" class="strumenti-list"
-></app-strum-detail>
+<ngb-carousel>
+  <ng-template ngbSlide>
+    <app-strum-detail *ngFor="let strumento of dataManagerServ.strumenti" [strumentiDetail]="strumento"
+      class="strumenti-list"></app-strum-detail>
+  </ng-template>
+</ngb-carousel>
 
 <hr>
 
-<app-chitarre-detail  *ngFor="let chitarra of dataManagerServ.chitarre"
-[chitarreDetail]="chitarra" class="chitarre-list"></app-chitarre-detail>
+<app-chitarre-detail *ngFor="let chitarra of dataManagerServ.chitarre" [chitarreDetail]="chitarra"
+  class="chitarre-list"></app-chitarre-detail>
 
 <hr>
 
 <p>pianoforti-detail works!</p>
-<app-pianoforti-detail *ngFor="let pianoforte of dataManagerServ.pianoforti"
-[pianofortiDetail]="pianoforte" class="pianoforti-list"></app-pianoforti-detail>
+<app-pianoforti-detail *ngFor="let pianoforte of dataManagerServ.pianoforti" [pianofortiDetail]="pianoforte"
+  class="pianoforti-list"></app-pianoforti-detail>
+
+
+
+
